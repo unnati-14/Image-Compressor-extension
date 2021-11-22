@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { useDropzone } from "react-dropzone"
-import './Dropzone.css'
+import './Functionality.css'
 
 export default function Dropzone() {
   const [files, setFiles] = useState([])

@@ -1,4 +1,4 @@
-.drop{
+/* .drop{
         color: #192537;
         padding-top: 2rem;
         font-family: Lucida;
@@ -13,4 +13,20 @@
     margin-top:2rem;
     margin-left:0.5rem;
     padding-right: 30rem;  
+} */
+
+.m-5{
+    color: #192537;
+    padding-top: 0.5rem;
+    font-family: Lucida;
+    text-align: left;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    background-color: #B09E80;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+}
+.container{
+margin-top:2rem;
+padding-right: 13rem;  
 }
