@@ -1,0 +1,16 @@
+.drop{
+        color: #192537;
+        padding-top: 2rem;
+        font-family: Lucida;
+        text-align: left;
+        font-size: 1.8rem;
+        padding-left: 2rem;
+        background-color: rgb(205, 205, 218);
+        padding-bottom: 2rem;
+        padding-right: 0.5rem;
+}
+.container{
+    margin-top:2rem;
+    margin-left:0.5rem;
+    padding-right: 30rem;  
+}

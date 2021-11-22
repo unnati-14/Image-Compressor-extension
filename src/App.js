@@ -1,19 +1,17 @@
+import React, { Component } from 'react';
 import Popup from './components/Popup';
-import { BrowserRouter as Router, Switch, Route, Routes} from "react-router-dom";
 import Dropzone from './components/Dropzone';
 
-function App() {
+class App extends Component {
+  render(){
   return (
-    // <Router>
-      // <Popup />
+    <div>
+      <Popup />
       <Dropzone />
-    //   {/* <Routes>
-    //     <Route exact path="/" component={Popup} />
-    //     <Route path="/dropzone" component={Dropzone} />
-    //     <Route path="*" component={() => <h2>404 Not Found </h2>} />
-    //   </Routes>
-    // </Router> */}
+            <button type="button" class="btn btn-outline-secondary" style={{marginLeft:"15rem",marginTop:"2rem",fontSize:"1.5rem",fontFamily:"Lucida",}}>Download Compressed File</button>
+      </div>
   );
-};
+  }
+}
 
 export default App;

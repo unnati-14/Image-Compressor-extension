@@ -27,12 +27,14 @@ export default function Dropzone() {
   ))
 
   return (
+    <div className="container">
     <div className="drop">
       <div {...getRootProps()}>
         <input {...getInputProps()} />
-        <p>Drop file here</p>
+        <p>Click to select image file from device you want to compress</p>
       </div>
-      <div>{images}</div>
+      <div style={{marginLeft:"15rem"}}>{images}</div>
+    </div>
     </div>
   )
 }
